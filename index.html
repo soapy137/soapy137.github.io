@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sophy Peng</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+        <script src="jquery.localscroll.js" type="text/javascript"></script> 
+        <script src="jquery.scrollTo.js" type="text/javascript"></script> 
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <style>
+            body {
+            position: relative;
+            }
+            .affix {
+            top:0;
+            width: 100%;
+            z-index: 9999 !important;
+            }
+            .navbar {
+            margin-bottom: 0px;
+            }
+            .affix ~ .container-fluid {
+            position: relative;
+            top: 50px;
+            }
+            #section1 {height:565px;color: #fff; background-color: #e6e6ff;}
+            #section2 {height:525px;color: #fff; background-color: #cce6ff;}
+            #section3 {height:525px;color: #fff; background-color: #c1f0f0;}
+            #section41 {height:525px;color: #fff; background-color: #ccfff5;}
+            #section42 {height:525px;color: #fff; background-color: #009688;}
+            #section10 {height:50px;color: #fff; background-color: #e6e6ff;}
+            #section20 {height:50px;color: #fff; background-color: #cce6ff;}
+            #section30 {height:50px;color: #fff; background-color: #c1f0f0;}
+            #section410 {height:50px;color: #fff; background-color: #ccfff5;}
+            #sectiontop {height:50px;color: #fff; background-color: #ffe6ff;}
+            .image img {
+            -webkit-transition: all 1s ease; /* Safari and Chrome */
+            -moz-transition: all 1s ease; /* Firefox */
+            -ms-transition: all 1s ease; /* IE 9 */
+            -o-transition: all 1s ease; /* Opera */
+            transition: all 1s ease;
+            }
+            .image:hover img {
+            -webkit-transform:scale(1.25); /* Safari and Chrome */
+            -moz-transform:scale(1.25); /* Firefox */
+            -ms-transform:scale(1.25); /* IE 9 */
+            -o-transform:scale(1.25); /* Opera */
+            transform:scale(1.25);
+            }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function() {
+               $('#section42').localScroll({duration:800});
+            });
+        </script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50" style = "font-family: 'Amatic SC', cursive;">
+        <div class="container-fluid" style="background-color:#ffe6ff;color:#80bfff;height:650px;vertical-align: middle;">
+            <p style="font-size:150px; font-family: 'Amatic SC', cursive;text-align: center;vertical-align: middle;"> Sophy Peng</p>
+            <div class="container">
+                <br>
+                <div class="col-md-3 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class = "img-circle item" style="width:250px;height:250px;" src = "http://i.imgur.com/hnf9fNb.jpg" alt="NewarkDays" > </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class = "img-circle item" style="width:250px;height:250px;" src = "http://i.imgur.com/NT2QgiG.jpg" alt="SquadPhoto" > </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class = "img-circle item" style="width:250px;height:250px;" src = "http://i.imgur.com/yKuUny5.jpg" alt="LipDub" > </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class = "img-circle item" style="width:250px;height:250px;" src = "http://i.imgur.com/aJIESBX.jpg" alt="NCSSweater" > </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-4 text-center"></div>
+            <div class="col-md-4 text-center">
+                <a href="#topbar">
+                <button type="button" class="btn btn-default btn-circle btn-lg text-center"><i class="glyphicon glyphicon-chevron-down"></i></button>
+                </a>
+            </div>
+            <div class="col-md-4 text-center"></div>
+        </div>
+        <div id="sectiontop" class="container-fluid"></div>
+        <nav id = "topbar" class="navbar navbar-inverse" data-spy="affix" data-offset-top="700" style="background-color: black;font-color:red;font-family: 'Amatic SC', cursive;font-size: 30px;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="font-size:40px;">Sophy Peng</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#sectiontop">About Me</a></li>
+                            <li><a href="#section10">Section 2</a></li>
+                            <li><a href="#section20">Section 3</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#section30">Section 4-1</a></li>
+                                    <li><a href="#section410">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="section1" class="container-fluid">
+            <div class = "row">
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image img-circle">
+                            <br><br>
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/NjsXG19.jpg" alt="CNYSF" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/c2rcdjr.jpg" alt="8Freelay" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/8pB2jqw.jpg" alt="MVALs" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/UMm6xdQ.jpg" alt="CGAGoose" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p style="font-size: 100px;">About Me</p>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img class = "img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/i3An3cp.jpg" alt="NWDwH" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/FAc4I5E.jpg" alt="Huskymedal" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/f80u8j9.jpg" alt="NCS2016" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image"><br><br>
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 text-center">
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 text-center">
+                <p style = "font-size:25px;">A little about me. I'm currently a senior at American High School. I love the outdoors and spend a majority of time playing sports or hanging out with my friends. I do a little bit of swimming.</p>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 text-center">
+                	<p style = "font-size:25px;">Music plays a huge role in my life and I honestly don't think I coud live without it.</p>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img  style="width:70px;height:70px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/MNNqwXN.gif" alt="Wendy" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/DmyCsvel.jpg" alt="TWICEWed" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/pSVr3bB.jpg" alt="Somi" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/FvA37pK.gif" alt="Momo" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/p1hLKPb.jpg" alt="Mina" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/xqY1v7m.gif" alt="Irene" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/etFgqer.jpg" alt="Wheein" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class = "img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/juDgvju.gif" alt="MinaFighting" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/lOLefuM.jpg" alt="Tiffany" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/8DLozd9.gif" alt="Chaeyeon" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/o0AtDeil.png" alt="XuGeYang" >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <div class = "img-circle">
+                        <div class = "image">
+                            <img class="img-circle" style="width:70px;height:70px;" src = "http://i.imgur.com/yjPebUD.gif" alt="Seulgi" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section10" class="container-fluid">
+        	<p style="font-size: 30px;font-color:grey;">*I may or may not have a thing for kpop.</p>
+        </div>
+        <div id="section2" class="container-fluid">
+            <h1>Section 2</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section20" class="container-fluid"></div>
+        <div id="section3" class="container-fluid">
+            <h1>Section 3</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section30" class="container-fluid"></div>
+        <div id="section41" class="container-fluid">
+            <h1>Section 4 Submenu 1</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section410" class="container-fluid"></div>
+        <div id="section42" class="container-fluid">
+            <h1>Contact</h1>
+            <div class="container">
+                <br><br>
+                <div class="col-md-4 text-center">
+                    <div class = "img-circle">
+                        <div class = "image img-circle">
+                            <a href = " https://www.facebook.com/sophy.j.peng">
+                            <img  style="width:300px;height:300px;" src = "https://i.imgur.com/DfyKiDp.png" alt="Facebook" > </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class = "img-circle" >
+                        <div class = "image img-circle">
+                            <a href = " https://www.instagram.com/soapy137/">
+                            <img   src = "https://i.imgur.com/LzuUt79.png" alt="Instagram" style="width:300px;height:300px;"> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class = "img-circle" >
+                        <div class = "image img-circle">
+                            <img  type="button"  style="width:300px;height:300px;" data-toggle="modal" data-target="#myModal"   src="https://i.imgur.com/C6fKFzf.png" alt = "Mail">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12"><br/></div>
+            <div id="myModal" class="modal fade" style="top:15%;font-color:black;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" style="font-color:black">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" style="font-size:30px;font-color:black;">E-mail</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-warning" style="font-size:25px;font-color:black;">sophy.peng2017@gmail.com</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
